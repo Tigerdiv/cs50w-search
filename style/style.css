@@ -41,3 +41,42 @@ color:black;
 a:hover{
 text-decoration:underline;
 }
+.advanced{
+width:60%;
+}
+.advanced > div{
+width:70%;
+display:flex;
+align-items:center;
+margin:12px 0px;
+} 
+.advanced > div label{
+width:25%;
+font-size:15px;
+display:inline-block;
+margin:0 20px
+}
+.advanced > .advsearch > input{
+width:75%;
+padding:6px 0;
+border-radius:1px;
+display:inline-block;
+margin:0 20px;
+}
+.advanced,h3{
+margin:20px;
+}
+.advbutton{
+position:relative;
+}
+input[value="Advanced Search"]{
+position: absolute;
+left: 625px;
+top: 31%;
+background: #8ab4f8;
+border-radius: 1px;
+padding: 10px;
+font-family: arial;
+font-size: 16px;
+}
+
